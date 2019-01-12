@@ -1,0 +1,25 @@
+//Stylesheet for font family
+@import url('https://fonts.googleapis.com/css?family=Cookie|Indie+Flower|Lato|Nunito');
+
+
+@mixin cursive-font() {
+  font-family: 'Indie Flower', cursive;
+}
+
+@mixin serif-font() {
+  font-family: 'Lora', 'Times New Roman', serif;
+}
+@mixin sans-serif-font() {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+@mixin global-font() {
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+}
+@mixin sub-leading-font(){
+  font-family:'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+@mixin leading-font() {
+  font-family: 'Indie Flower', 'Times New Roman', serif;
+}

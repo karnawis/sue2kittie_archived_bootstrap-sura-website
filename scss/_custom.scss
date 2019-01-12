@@ -1,0 +1,140 @@
+//Home page
+
+#floating-house {
+  display: block;
+  float: right;
+  max-width: 200px;
+  width: 36%;
+}
+
+.card__container {
+
+  h3 {
+    bottom:0;
+    color: $white;
+    font-size: 46px;
+    left: 0;
+    line-height: 200px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: center;
+    margin:auto;
+
+  }
+  p {
+    color: $white;
+    opacity:0;
+    text-align: justify;
+    transform: rotateY(180deg);
+
+  }
+  .card__box {
+    background-color: $coral;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 20px;
+    transition: transform .4s ease;
+
+    &:hover {
+      transform: rotateY(180deg);
+      p {
+        opacity: 1;
+      }
+      h3 {
+        opacity: 0;
+      }
+    }
+
+  }
+
+}
+
+.icon-bg{
+  border: 1px solid $coral;
+  border-radius: 15px;
+  display: inline-block;
+  height: 100%;
+  padding: 10px;
+  width:100%;
+
+  &.icon-spade{background: url(../img/icons/icon-spade.png), url(../img/icons/icon-spade.png);}
+  &.icon-diamond{background: url(../img/icons/icon-diamond.png), url(../img/icons/icon-diamond.png);}
+  &.icon-club{background: url(../img/icons/icon-club.png),url(../img/icons/icon-club.png);}
+  &.icon-heart{background: url(../img/icons/icon-heart.png),url(../img/icons/icon-heart.png);}
+  &.icon-spade,&.icon-diamond,  &.icon-club,   &.icon-heart{
+    background-position: 2% 2%, 98% 98%;
+    background-repeat: no-repeat;
+    background-size: 19px;
+  }
+}
+.spade-card{
+  background: url(../img/icons/icon-card-club.png) no-repeat;
+  background-size: 5%;
+  background-position: 98% 15px;
+}
+
+.sticky-banner {
+    padding-top: 18px;
+    background-image: url(../img/banner-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    min-height: 350px;
+    position: relative;
+    background-attachment: fixed;
+    background-position: left;
+
+    &.contact-banner {
+      background-image: url(../img/contact-bg.JPG);
+    }
+
+}
+
+
+
+p.help-block.text-danger {
+  background-color: #FEC43B;
+  color: black;
+  border-radius: 4px;
+  li {
+    list-style: none;
+  }
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+.flex__container {
+  display: flex;
+  flex-direction: row;
+}
+.flex__box {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.flex {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+
+
+
+figure.hover figcaption{
+  opacity:1;
+  transform:rotateY(0deg);
+  transition:transform .4s,opacity .1s;
+}
