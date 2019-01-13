@@ -85,3 +85,16 @@ img::-moz-selection {
   color: $white;
   background: transparent;
 }
+
+.bg-red{
+  background-color: $coral;
+  color: $white;
+
+  blockquote{
+    color: $white;
+  }
+}
+
+blockquote {
+  font-size: 16px;
+}
