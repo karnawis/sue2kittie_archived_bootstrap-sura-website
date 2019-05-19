@@ -19,7 +19,14 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
     <!-- Custom styles for this template -->
-    <link href="css/clean-blog.min.css" rel="stylesheet">
+    <link href="css/main.min.css" rel="stylesheet">
+
+
+    <meta property="og:url"           content="http://www.sura.me" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="Sura Karnawi" />
+    <meta property="og:description"   content="Sura Karnawi web dev & artist 2019" />
+    <meta property="og:image"         content="assets/img/screenshot.png" />
 
   </head>
 
@@ -36,7 +43,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index.html#services">Services</a>
+              <a class="nav-link" href="services.html">Services</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="portfolio.html">Portfolio</a>
@@ -70,43 +77,43 @@
       </div>
     </header>
 
-    <section id="services">
+    <section id="services" class="gutter">
       <div class="container">
         <div class="row">
           <div class="col-sm-12 text-center">
-            <h2>Services</h2>
+            <h3 class="main-page__title"><a class="main-page__title-link" href="services.html#create">Services</a></h3>
             <p>I'm a freelance front-end UI/UX developer. I want to make a positive difference in the world. If you have an established business, a product, or just an idea/startup that is working on making the world a better place or would make a good impact, and you need someone to build or improve your website then I would love to help you.</p>          </div>
         </div>
         <div class="row card__container flex__container">
           <div class="col-lg-3 col-md-6 flex__box">
             <div class="card__box">
               <div class="icon-spade icon-bg cards__icon">
-                <h3 class="card__title">Create</h3>
-                <p class="cards__content"><strong>Designing & developing websites. Improving or maintaining websites. Creating brands.  <a href="portfolio.html">See the portfolio</a> or <a href="#contact">Get in touch</a></strong></p>
+                <h3 class="card__title"><a href="services.html#create">Create</a></h3>
+                <p class="cards__content"><strong>Designing & developing websites.</strong> Improving or maintaining websites. Creating brands. <a href="services.html">Learn more</a></p>
               </div>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 flex__box">
             <div class="card__box">
               <div class="icon-diamond icon-bg cards__icon">
-                <h3 class="card__title">Advise</h3>
-                <p class="cards__content">If you have a question about the web or need consulting on improving your website. </p>
+                <h3 class="card__title"><a href="services.html#advise">Advise</a></h3>
+                <p class="cards__content">You need consulting on improving your website? <a href="services.html">Learn more</a></p>
               </div>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 flex__box">
             <div class="card__box">
               <div class="icon-club icon-bg cards__icon">
-                <h3 class="card__title">Optimize</h3>
-                <p class="cards__content">Optimize your content for search engines, improve your accessibility level.</p>
+                <h3 class="card__title"><a href="services.html#optimize">Optimize</a></h3>
+                <p class="cards__content">Optimize your content for search engines, improve your accessibility level. <a href="services.html">Learn more</a></p>
               </div>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 flex__box">
             <div class="card__box card__box-joker">
               <div class="icon-heart icon-bg cards__icon">
-                <h3 class="card__title">More...</h3>
-                <p class="cards__content">I can create beautiful paintings. I get commissioned to make paintings for clients. <a href="portfolio.html">See the portfolio</a> or <a href="#testimonial">Read testimonials</a>  </p>
+                <h3 class="card__title"><a href="services.html#more">More...</a></h3>
+                <p class="cards__content">I can create beautiful paintings. I get commissioned to make paintings for clients. <a href="services.html">Learn more</a></p>
               </div>
             </div>
           </div>
@@ -114,20 +121,23 @@
       </div>
     </section>
     <section class="sticky-banner"></section>
+    <section id="art" class="gutter">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="main-page__title"><a class="main-page__title-link" href="portfolio.html">Art</a></h2>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <section id="testimonial" class="bg-red">
+    <section id="testimonial" class="bg-red gutter">
       <div class="container">
         <div class="row">
           <div class="col-sm-12 text-center">
+            <h3 class="main-page__title">A Heart Warming Quote for you every time you visit:</h3>
 
-            <blockquote>“Sura’s web designing has done so much for my business! My website now looks fresh and contemporary. I have seen a big increase in requests for more information. Sura listened to my ideas and translated them into reality. I heartily recommend Sura for your web design needs.”  Steve D</blockquote>
-
-            <blockquote>“Sura provided an efficient service at a very high standard. She understood exactly what I wanted, and I now feel proud to visit my website. I will definitely work with Sura again in the future.”  Aliya</blockquote>
-
-              <blockquote>“The beautiful painting has captured the mood and atmosphere of my City and brings me happy memories and lovely thoughts of home” Steve G</blockquote>
-
-            <blockquote>“Sura created my professional website from scratch in only a few days and it was exactly what I was looking for. She listened to my vision and understood what I was looking for. I would definitely hire her again.” Sarah</blockquote>
-
+            <blockquote>"Take small steps in the right direction. No matter how small your steps, keep moving forward towards your goal." ~Nick Vujicic</blockquote>
 
           </div>
         </div>
@@ -136,11 +146,11 @@
 
     <section class="sticky-banner contact-banner"></section>
     <!-- contact me section -->
-    <section id="contact">
+    <section id="contact" class="gutter">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
-            <h2>Contact me</h2>
+            <h2 class="main-page__title"><a class="main-page__title-link" href="contact.html">Get in touch</a></h2>
             <p>Want to get in touch? Fill out the form below to send me a message and I will get back to you as soon as possible!</p>
             <!-- Contact Form - Enter your email address on line 19 of the mail/contact_me.php file to make this form work. -->
             <!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
@@ -180,6 +190,11 @@
                 <button type="submit" class="btn btn-primary" id="sendMessageButton">Send</button>
               </div>
             </form>
+            <div class="row">
+              <div class="col-md-12">
+                <div id="search"></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -198,7 +213,7 @@
               <li class="list-inline-item"><a href="http://ca.linkedin.com/in/surait/" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
             </ul>
             <p class="copyright">Copyright &copy; Sura.me 2019</p>
-            <p>Company no. 10010350</p>
+            <p>Sura Creativity Ltd. Company no. 10010350</p>
           </div>
         </div>
       </div>
@@ -211,6 +226,7 @@
     <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
+    <script src="js/gcse.js"></script>
 
     <!-- Custom scripts for this template -->
     <script src="js/clean-blog.min.js"></script>
